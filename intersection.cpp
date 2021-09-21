@@ -5,7 +5,7 @@ vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
             int left = nums1[l], right = nums2[r];
             if(left == right){
                 result.push_back(right);
-                while(l < nums1.size() && nums1[l] == left )l++;
+                while(l < nums1.size() && nums1[l] == left ) l++;
                 while(r < nums2.size() && nums2[r] == right )r++;
                 continue;
             }
