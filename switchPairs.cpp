@@ -1,5 +1,6 @@
 // Write the switchPairs() function as specified above
-void switchPairs(vector <int> &v){
+void switchPairs(vector <int> &v)
+{
 
     int i, temp, lastOdd =0 ;
     if(v.size()%2 != 0){
