@@ -14,6 +14,6 @@ if(v.size()!= 0 && v.size()>=2){
            } else {i+=2;}
        }  
        if(v.size()%2 !=0)
-        v[v.size()-1] = lastOdd;
+      {  v[v.size()-1] = lastOdd; }
 }             
 }
