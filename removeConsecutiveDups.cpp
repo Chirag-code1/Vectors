@@ -4,8 +4,8 @@ void removeConsecutiveDups(vector<int> &v){
         if(v[i] == v[i+1] && i != v.size()-1){
             v.erase(v.begin()+i);
         }
-        else {
+        else 
              i+=1;
-        }
+        
      }
 }
